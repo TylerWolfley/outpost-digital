@@ -1,0 +1,189 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact | Outpost Digital</title>
+    <meta
+      name="description"
+      content="Request a quote or call 307-349-4694."
+    />
+    <link rel="icon" href="./assets/favicons/outpost-logo-favicon-transparent.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script defer src="./js/site.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="./index.html" aria-label="Outpost Digital home">
+        <img src="./assets/favicons/outpost-logo-favicon-transparent.png" alt="" />
+        <span class="brand-lockup" aria-hidden="true">
+          <span>Outpost</span>
+          <span>Digital</span>
+        </span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="./websites.html">Websites</a>
+        <a href="./services.html">Services</a>
+        <a href="./work.html">Work</a>
+        <a href="./pricing.html">Pricing</a>
+        <a href="./contact.html" aria-current="page">Contact</a>
+      </nav>
+
+      <nav class="mobile-nav" aria-label="Mobile navigation">
+        <a href="./websites.html">Websites</a>
+        <a href="./work.html">Work</a>
+        <a href="./pricing.html">Pricing</a>
+        <a href="./contact.html" aria-current="page">Contact</a>
+      </nav>
+    </header>
+
+    <main class="page-main contact-page">
+      <section class="contact-page-hero" aria-labelledby="page-title">
+        <div class="contact-page-copy">
+          <p class="eyebrow">Contact</p>
+          <h1 id="page-title">Get a website quote or call Tyler.</h1>
+          <p>
+            Tell me what kind of site, redesign, SEO help, or digital cleanup you need.
+            A quick call or quote text is enough to get the right starting point.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="tel:+13073494694">Call 307-349-4694</a>
+            <a class="button secondary" href="#quote-form">Start Quote Text</a>
+          </div>
+        </div>
+        <aside class="contact-starting-point" aria-label="Fastest way to start">
+          <span>Fastest way</span>
+          <strong>Call 307-349-4694.</strong>
+          <p>If you are not sure what you need yet, that is fine. Start with the business and the problem.</p>
+        </aside>
+      </section>
+
+      <section class="contact-quote-layout" id="quote-form" aria-labelledby="quote-title">
+        <div class="contact-guidance">
+          <p class="eyebrow">Start here</p>
+          <h2 id="quote-title">Send the basics. We can sort out the rest.</h2>
+          <p>
+            The form opens a text message with the details filled in. Add what you know,
+            skip what you do not, and send it when it looks right.
+          </p>
+          <div class="contact-detail-list" aria-label="Useful quote details">
+            <div>
+              <span>01</span>
+              <strong>Business name or current site</strong>
+              <p>Enough to understand what customers see now.</p>
+            </div>
+            <div>
+              <span>02</span>
+              <strong>Main thing that feels weak</strong>
+              <p>Outdated site, no site, messy branding, thin SEO, or unclear contact path.</p>
+            </div>
+            <div>
+              <span>03</span>
+              <strong>What you already have</strong>
+              <p>Logo, photos, domain, old content, Google profile, or anything useful.</p>
+            </div>
+          </div>
+        </div>
+
+        <form class="quote-form contact-page-form" data-quote-form>
+          <label>
+            Name
+            <input name="name" type="text" autocomplete="name" required />
+          </label>
+          <label>
+            Business
+            <input name="business" type="text" autocomplete="organization" />
+          </label>
+          <label>
+            Phone
+            <input name="phone" type="tel" autocomplete="tel" />
+          </label>
+          <label>
+            Project type
+            <select name="projectType">
+              <option value="">Choose one</option>
+              <option>New website</option>
+              <option>Rebuild an old site</option>
+              <option>Landing page</option>
+              <option>SEO or Google profile help</option>
+              <option>Not sure yet</option>
+            </select>
+          </label>
+          <label>
+            Main goal
+            <select name="goal">
+              <option value="">Choose one</option>
+              <option>More calls or quote requests</option>
+              <option>Look more legitimate online</option>
+              <option>Explain services better</option>
+              <option>Show work or proof</option>
+              <option>Get found locally</option>
+            </select>
+          </label>
+          <label>
+            Do you already have a logo, photos, or domain?
+            <input name="assets" type="text" placeholder="Example: logo yes, photos no, domain yes" />
+          </label>
+          <label>
+            What do you need?
+            <textarea name="need" rows="4" required></textarea>
+          </label>
+          <button class="button primary" type="submit">Start Quote Text</button>
+          <p class="form-note" data-form-note>Phone only for now. Email can be added when the address is ready.</p>
+        </form>
+      </section>
+
+      <section class="process-grid contact-process" aria-label="What happens next">
+        <article>
+          <span>01</span>
+          <h3>Reach out</h3>
+          <p>Call or send the quote text with the business name and what is not working online.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>Quick review</h3>
+          <p>I look at the current site, search presence, branding, and contact path.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>Clear recommendation</h3>
+          <p>New site, redesign, SEO cleanup, photos, or a smaller setup fix.</p>
+        </article>
+        <article>
+          <span>04</span>
+          <h3>Practical quote</h3>
+          <p>You get a simple starting point and a scope that matches the actual need.</p>
+        </article>
+      </section>
+
+      <section class="pricing-band contact-page-cta" aria-labelledby="contact-cta-title">
+        <div>
+          <p class="eyebrow">Direct is good</p>
+          <h2 id="contact-cta-title">You do not need a perfect brief to start.</h2>
+        </div>
+        <div class="pricing-copy">
+          <strong>Call with the rough version.</strong>
+          <p>A short conversation is usually enough to figure out whether you need a starter site, a rebuild, or a smaller cleanup.</p>
+          <div class="cta-actions">
+            <a class="button primary" href="tel:+13073494694">Call 307-349-4694</a>
+            <a class="button secondary" href="#quote-form">Start Quote Text</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Outpost Digital</span>
+      <a href="tel:+13073494694">307-349-4694</a>
+      <span>&copy; <span data-year></span></span>
+    </footer>
+  </body>
+</html>
+
